@@ -38,7 +38,7 @@ const SidebarNavigation: React.FC<SidebarNavigationProps> = ({ items }) => {
             )}
 
             <span className={styles.text}>{item.name}</span>
-            {item.count && item.count > 0 && (
+            {item.count > 0 && (
               <span className={styles.count}>{item.count}</span>
             )}
           </div>
